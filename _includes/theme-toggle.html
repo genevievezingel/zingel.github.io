@@ -1,0 +1,30 @@
+<!-- Shared dark/light toggle for standalone pages (blog index + posts).
+     Uses the same localStorage key as the homepage, so the choice carries over. -->
+<button class="theme-toggle" id="theme-toggle" type="button"
+        style="position: fixed; bottom: 24px; right: 24px; z-index: 60;"
+        aria-label="Toggle colour theme">
+  <span id="theme-icon">☀</span> <span id="theme-text">Light mode</span>
+</button>
+<script>
+  (function () {
+    var store = {
+      get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+      set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+    };
+    var body = document.body,
+        txt = document.getElementById("theme-text"),
+        icon = document.getElementById("theme-icon");
+    function apply(theme) {
+      var light = theme === "light";
+      body.classList.toggle("light", light);
+      txt.textContent = light ? "Dark mode" : "Light mode";
+      icon.textContent = light ? "☾" : "☀";
+    }
+    apply(store.get("theme") || "dark");
+    document.getElementById("theme-toggle").addEventListener("click", function () {
+      var next = body.classList.contains("light") ? "dark" : "light";
+      apply(next);
+      store.set("theme", next);
+    });
+  })();
+</script>

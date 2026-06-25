@@ -1,0 +1,20 @@
+title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
+description: "Accounting, Statistics & Business Analytics student at the University of Auckland — passionate about numbers, data and analysis."
+lang: en
+
+# Build settings
+markdown: kramdown
+# We ship our own layout/CSS — no theme needed.
+
+# Keep these out of the built site
+exclude:
+  - vendor-icons.sh
+  - vendor-logos.sh
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Serve Chrome DevTools well-known file (silences local 404 noise)
+include:
+  - .well-known
