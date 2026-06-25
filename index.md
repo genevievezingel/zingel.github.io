@@ -9,6 +9,7 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
     <a href="#top" data-sec="top" class="active"><span class="label">Home</span><span class="pip"></span></a>
     <a href="#experience" data-sec="experience"><span class="label">Work</span><span class="pip"></span></a>
     <a href="#education" data-sec="education"><span class="label">Education</span><span class="pip"></span></a>
+    <a href="#thoughts" data-sec="thoughts"><span class="label">Writing</span><span class="pip"></span></a>
     <a href="#contact" data-sec="contact"><span class="label">Connect</span><span class="pip"></span></a>
   </aside>
 
@@ -48,6 +49,9 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
               <span class="fchip">Business Analytics</span>
               <span class="fchip">Data Analysis</span>
               <span class="fchip">Analytical Thinking</span>
+              <span class="fchip"><img loading="lazy" src="assets/icons/python.svg" alt="" onerror="this.style.display='none'" />Python</span>
+              <span class="fchip"><img loading="lazy" src="assets/icons/r.svg" alt="" onerror="this.style.display='none'" />R</span>
+              <span class="fchip"><img loading="lazy" src="assets/icons/sql.svg" alt="" onerror="this.style.display='none'" />SQL</span>
             </div>
           </div>
         </div>
@@ -66,7 +70,7 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
           <div class="exp-year">2025</div>
           <div class="exp-main">
             <div class="exp-role">Statistics Marker</div>
-            <div class="exp-co"><span class="exp-logo">UoA</span> University of Auckland · Part-time</div>
+            <div class="exp-co"><span class="exp-logo"><img src="assets/logos/university-of-auckland.svg" alt="University of Auckland" onerror="this.replaceWith(document.createTextNode('UoA'))" /></span> University of Auckland · Part-time</div>
             <p class="exp-desc">Selected on the strength of academic performance in statistics. Marked assignments and assessments accurately and fairly against departmental rubrics, gave constructive feedback to support student learning, and upheld confidentiality and academic integrity throughout.</p>
           </div>
           <div class="exp-tags">
@@ -79,7 +83,7 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
           <div class="exp-year">2024 — 2025</div>
           <div class="exp-main">
             <div class="exp-role">Production Worker</div>
-            <div class="exp-co"><span class="exp-logo">PK</span> Pikitia · Part-time</div>
+            <div class="exp-co"><span class="exp-logo"><img src="assets/logos/pikitia.svg" alt="Pikitia" onerror="this.replaceWith(document.createTextNode('Pk'))" /></span> Pikitia · Part-time</div>
             <p class="exp-desc">Assembled products and carried out inventory counts with precision, met quality-control standards, and collaborated with the team to keep the workflow efficient and well organised.</p>
           </div>
           <div class="exp-tags">
@@ -92,7 +96,7 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
           <div class="exp-year">2023</div>
           <div class="exp-main">
             <div class="exp-role">Resident Advisor</div>
-            <div class="exp-co"><span class="exp-logo">UoA</span> University of Auckland · Part-time</div>
+            <div class="exp-co"><span class="exp-logo"><img src="assets/logos/university-of-auckland.svg" alt="University of Auckland" onerror="this.replaceWith(document.createTextNode('UoA'))" /></span> University of Auckland · Part-time</div>
             <p class="exp-desc">Upheld university policies, looked after resident safety, and helped build a supportive community by organising and running events. Assisted students at reception, demonstrating strong interpersonal skills and reliability.</p>
           </div>
           <div class="exp-tags">
@@ -105,7 +109,7 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
           <div class="exp-year">2022 — 2023</div>
           <div class="exp-main">
             <div class="exp-role">Food Service Worker</div>
-            <div class="exp-co"><span class="exp-logo">CI</span> Carve It Ltd · Part-time</div>
+            <div class="exp-co"><span class="exp-logo"><img src="assets/logos/carve-it.svg" alt="Carve It Ltd" onerror="this.replaceWith(document.createTextNode('Ci'))" /></span> Carve It Ltd · Part-time</div>
             <p class="exp-desc">Provided prompt, friendly service in a fast-paced food-court environment — handling orders accurately, assisting with food preparation, and maintaining cleanliness and strong customer service.</p>
           </div>
           <div class="exp-tags">
@@ -138,6 +142,27 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
       </div>
     </div>
   </section>
+  {% endraw %}
+
+  <section id="thoughts" class="reveal">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Recent Thoughts</h2>
+        <a class="view-all" href="blog/">View all posts →</a>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-6">
+        {% for post in site.posts limit: 4 %}
+        <a class="thought" href="{{ post.url | relative_url }}">
+          <div class="thought-meta"><span>{{ post.date | date: "%b %Y" }}</span><span>{{ post.read }}</span></div>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.description }}</p>
+          <span class="read-more">Read more &rarr;</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% raw %}
 
   <section id="contact" class="reveal">
     <div class="wrap">
@@ -156,6 +181,10 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
             <a class="conn-card" href="https://www.linkedin.com/in/genevievezingel/" target="_blank" rel="noopener">
               <span class="conn-top"><img loading="lazy" src="assets/icons/linkedin.svg" alt="" onerror="this.style.display='none'" /> LinkedIn</span>
               <span class="conn-handle">Genevieve Zingel</span>
+            </a>
+            <a class="conn-card" href="mailto:gen@zingel.co.nz">
+              <span class="conn-top"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg> Email</span>
+              <span class="conn-handle">gen@zingel.co.nz</span>
             </a>
           </div>
         </div>

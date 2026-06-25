@@ -9,7 +9,7 @@ permalink: /blog/
 <main class="wrap blog-wrap">
   <a href="{{ '/' | relative_url }}" class="view-all blog-back">← Back to home</a>
   <h2 class="blog-title">Writing</h2>
-  <p class="blog-intro">Notes on data engineering and software — pipelines, tooling, and the occasional hard-won lesson.</p>
+  <p class="blog-intro">Notes on accounting, statistics and business analytics — what I'm learning, and the occasional lesson along the way.</p>
 
   <div class="grid sm:grid-cols-2 gap-6">
     {% for post in site.posts %}
