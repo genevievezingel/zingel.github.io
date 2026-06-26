@@ -7,7 +7,7 @@ read: "4 min read"
 category: writing
 ---
 
-*This is a placeholder post — content coming soon.*
+*This is a placeholder post — content coming soon. CEZ*
 
 Marking other students' work is a surprisingly good way to learn. This post will gather a
 few lessons from my time as a statistics marker — the mistakes that came up again and again,
