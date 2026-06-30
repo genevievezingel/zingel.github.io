@@ -144,6 +144,7 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
   </section>
   {% endraw %}
 
+  {% comment %} Recent Thoughts section temporarily hidden
   <section id="thoughts" class="reveal">
     <div class="wrap">
       <div class="section-head">
@@ -162,6 +163,7 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
       </div>
     </div>
   </section>
+  {% endcomment %}
   {% raw %}
 
   <section id="contact" class="reveal">
