@@ -71,6 +71,19 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
       <div class="exp-list">
 
         <div class="exp">
+          <div class="exp-year">2025 — 2026</div>
+          <div class="exp-main">
+            <div class="exp-role">Summer Research Scholar — AI &amp; Cultural Heritage</div>
+            <div class="exp-co"><span class="exp-logo"><img src="assets/logos/university-of-auckland.svg" alt="University of Auckland" onerror="this.replaceWith(document.createTextNode('UoA'))" /></span> University of Auckland · Internship</div>
+            <p class="exp-desc">Selected for a competitive summer research scholarship on the strength of academic performance and research potential. Conducted a systematic review of around 100 reports on AI applications in the cultural-heritage sector, built computational skills in Python and LDA topic modelling to surface trends across the literature, and produced a foundational report to inform an upcoming academic paper.</p>
+          </div>
+          <div class="exp-tags">
+            <span class="exp-tag">Research</span><span class="exp-tag">Python</span>
+            <span class="exp-tag">Topic Modelling</span>
+          </div>
+        </div>
+
+        <div class="exp">
           <div class="exp-year">2025</div>
           <div class="exp-main">
             <div class="exp-role">Statistics Marker</div>
