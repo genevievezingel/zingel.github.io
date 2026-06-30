@@ -9,7 +9,7 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
     <a href="#top" data-sec="top" class="active"><span class="label">Home</span><span class="pip"></span></a>
     <a href="#experience" data-sec="experience"><span class="label">Work</span><span class="pip"></span></a>
     <a href="#education" data-sec="education"><span class="label">Education</span><span class="pip"></span></a>
-    <a href="#thoughts" data-sec="thoughts"><span class="label">Writing</span><span class="pip"></span></a>
+    <a href="#prizes" data-sec="prizes"><span class="label">Awards</span><span class="pip"></span></a>
     <a href="#contact" data-sec="contact"><span class="label">Connect</span><span class="pip"></span></a>
   </aside>
 
@@ -32,6 +32,10 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
               Auckland, New Zealand
             </span>
+            <a class="report-link" href="assets/docs/Transcript_Genevieve_Zingel.pdf" download>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download academic report (PDF)
+            </a>
           </div>
         </div>
 
@@ -135,6 +139,38 @@ title: "Genevieve Zingel — Accounting, Statistics & Business Analytics"
               <div class="cert-title">University of Auckland</div>
               <div class="cert-issuer">Accounting, Statistics &amp; Business Analytics</div>
               <p class="cert-desc">Studying accounting alongside statistics and business analytics — building a foundation in financial reporting, quantitative methods, and data-driven decision making.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="prizes" class="reveal">
+    <div class="wrap">
+      <div class="sec-label">// recognition</div>
+      <h2>Prizes &amp; Scholarships</h2>
+      <div class="cert-list">
+
+        <div class="cert">
+          <div class="cert-year">Award</div>
+          <div class="cert-body">
+            <span class="cert-logo"></span>
+            <div>
+              <div class="cert-title">First in Course Award — Business 112</div>
+              <div class="cert-issuer">University of Auckland</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert">
+          <div class="cert-year">Scholarship</div>
+          <div class="cert-body">
+            <span class="cert-logo"></span>
+            <div>
+              <div class="cert-title">Summer Research Scholarship</div>
+              <div class="cert-issuer">University of Auckland</div>
             </div>
           </div>
         </div>
